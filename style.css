@@ -1,0 +1,85 @@
+body {
+margin: 0;
+font-family: 'Arial', sans-serif;
+background: linear-gradient(135deg, #1f1f1f, #303030);
+color: #ffffff;
+}
+
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 50px;
+background-color: rgba(0, 0, 0, 0.8);
+box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+
+.logo {
+font-size: 1.5em;
+font-weight: bold;
+color: #ff00c8;
+}
+
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+
+.nav-links li a {
+color: #ffffff;
+text-decoration: none;
+font-weight: 500;
+transition: 0.3s;
+}
+
+
+.nav-links li a:hover {
+color: #ffe8eb;
+text-decoration: underline;
+}
+
+
+.hero {
+text-align: center;
+padding: 100px 20px;
+
+color: #ffffff;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+
+.hero h1 {
+font-size: 3em;
+margin-bottom: 20px;
+}
+
+
+.hero p {
+font-size: 1.2em;
+}
+
+
+.section {
+padding: 80px 50px;
+background-color: rgba(0, 0, 0, 0.5);
+margin: 20px 50px;
+border-radius: 15px;
+}
+
+
+.section h2 {
+font-size: 2em;
+margin-bottom: 20px;
+color: #ff00c8;
+}
+
+
+.section p {
+font-size: 1em;
+line-height: 1.6;
+}
